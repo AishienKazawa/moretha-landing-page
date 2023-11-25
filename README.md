@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MORETHA LANDING PAGE
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project is a web application focused on the construction theme. Whether you are showcasing construction projects, providing information about construction services, or creating a portfolio for a construction business, this project is designed to meet your needs.
+
+### Project Features
+
+- Modern and visually appealing design
+- Responsive layout for seamless viewing on different devices
+- Interactive navigation menu
+
+### Resources
+
+Here are some resources that may be helpful for working with the technologies used in this project:
+
+- Next.js: is a React framework that enables the building of server-side rendered (SSR) React applications with ease. It provides a powerful development environment with features like automatic code splitting, server-side rendering, and a simple API for handling data fetching. [Next.js Documentation](https://nextjs.org/docs)
+
+- Tailwind CSS: is a utility-first CSS framework that provides low-level utility classes to build designs directly in your markup. It promotes a functional and responsive design approach without the need for writing custom CSS styles. Tailwind CSS is highly customizable and scales well for large projects. [Tailwind CSS Documentation](https://tailwindcss.com/)
+
+- React-Slick: responsive carousel component built for React applications. It allows you to easily create and customize carousels or sliders for showcasing images, content, or any other components. React-Slick is built on top of the popular Slick carousel library and is designed to work seamlessly with React applications. [React-Slick Documentation](https://react-slick.neostack.com/docs/get-started)
+
+### Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   git clone <repository_url>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+   cd your-project
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install dependencies:
 
-## Learn More
+```bash
+   npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+   npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The application will be accessible at http://localhost:3000.
 
-## Deploy on Vercel
+### Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+When you are ready to deploy your project, you can use the build command:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+   npm run build
+```
+
+This will generate an optimized production build in the out/ directory.
+
+### Hosted Version
+
+A live version of the Barber Shop Landing Page is available [here](https://barbero-shop-landing-pages.vercel.app/).
