@@ -62,4 +62,4 @@ This will generate an optimized production build in the out/ directory.
 
 ### Hosted Version
 
-A live version of the Barber Shop Landing Page is available [here](https://barbero-shop-landing-pages.vercel.app/).
+A live version of the Barber Shop Landing Page is available [here](https://moretha-landing-page.vercel.app/). 
