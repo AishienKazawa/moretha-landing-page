@@ -43,7 +43,7 @@ export default function Home() {
       {/* service section */}
       <section id="services" className="bg-ctm-secondary py-16 md:py-0">
         <div className="max-w-screen-xl mx-auto px-5 grid gap-y-10  text-ctm-primary md:px-0 md:grid-cols-2 lg:px-5 lg:grid-cols-4">
-          <div className="grid place-items-center text-center py-5 md:py-10">
+          <div className="grid place-items-center text-center py-5 md:py-10 lg:py-16">
             <picture>
               <img src="/icon-architectural.svg" alt="service icon" />
             </picture>
