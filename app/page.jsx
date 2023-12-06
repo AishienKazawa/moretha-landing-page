@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <main className="h-full">
       {/* hero section */}
-      <section className="h-[80vh] bg-[url('/images/hero-bg.png')] bg-cover md:h-[60vh] xl:h-[80vh]">
+      <section className="h-[80vh] bg-[url('/images/hero-bg.png')] bg-cover lg:h-[90vh] xl:h-[80vh]">
         <div className="w-full h-full px-5 bg-ctm-gradient">
           {/* headings */}
           <div className="max-w-screen-xl h-full mx-auto text-ctm-primary flex items-center">
-            <div className="md:w-1/2 lg:w-3/6 lg:ms-16">
+            <div className="md:w-4/6 lg:w-3/6 lg:ms-16">
               <h1 className="ff-ctm-accent text-5xl mb-2 lg:text-6xl">
                 Transforming <br />
                 Visions into Reality
@@ -42,50 +42,63 @@ export default function Home() {
 
       {/* service section */}
       <section id="services" className="bg-ctm-secondary py-16 md:py-0">
-        <div className="max-w-screen-xl mx-auto px-5 grid gap-y-10  text-ctm-primary md:px-0 md:grid-cols-2 lg:px-5 lg:grid-cols-4">
-          <div className="grid place-items-center text-center py-5 md:py-10 lg:py-16">
-            <picture>
-              <img src="/icon-architectural.svg" alt="service icon" />
-            </picture>
-            <h2 className="text-lg font-bold my-3">Construction Management</h2>
-            <p className="px-5">
-              From concept to blueprint, we bring your vision to life with
-              innovative and functional designs, turning dreams into detailed
-              plans.
-            </p>
+        <div className="max-w-screen-xl mx-auto px-5 grid gap-y-10 text-ctm-primary md:px-0 md:grid-cols-2 lg:px-5 lg:grid-cols-4">
+          {/* service item */}
+          <div className="py-5 md:py-10 lg:py-16">
+            <div className="grid place-items-center text-center">
+              <picture>
+                <img src="/icon-architectural.svg" alt="service icon" />
+              </picture>
+              <h2 className="text-lg font-bold my-3">
+                Construction Management
+              </h2>
+              <p className="px-5">
+                From concept to blueprint, we bring your vision to life with
+                innovative and functional designs, turning dreams into detailed
+                plans.
+              </p>
+            </div>
           </div>
-
-          <div className="grid place-items-center text-center py-5 bg-ctm-accent md:py-10">
-            <picture>
-              <img src="/icon-construction.svg" alt="service icon" />
-            </picture>
-            <h2 className="text-lg font-bold my-3">Construction Management</h2>
-            <p className="px-5">
-              Experienced professionals ensure your project stays on time, on
-              budget, and meets the highest standards of quality and safety.
-            </p>
+          {/* service item */}
+          <div className="py-5 bg-ctm-accent md:py-10 lg:py-16">
+            <div className="grid place-items-center text-center">
+              <picture>
+                <img src="/icon-construction.svg" alt="service icon" />
+              </picture>
+              <h2 className="text-lg font-bold my-3">
+                Construction Management
+              </h2>
+              <p className="px-5">
+                Experienced professionals ensure your project stays on time, on
+                budget, and meets the highest standards of quality and safety.
+              </p>
+            </div>
           </div>
-
-          <div className="grid place-items-center text-center py-5 md:py-10">
-            <picture>
-              <img src="/icon-sustainable.svg" alt="service icon" />
-            </picture>
-            <h2 className="text-lg font-bold my-3">Sustainable Building</h2>
-            <p className="px-5">
-              Commitment to eco-friendly practices, offering green solutions and
-              energy-efficient designs for environmental construction.
-            </p>
+          {/* service item */}
+          <div className="py-5 md:py-10 lg:py-16">
+            <div className="grid place-items-center text-center">
+              <picture>
+                <img src="/icon-sustainable.svg" alt="service icon" />
+              </picture>
+              <h2 className="text-lg font-bold my-3">Sustainable Building</h2>
+              <p className="px-5">
+                Commitment to eco-friendly practices, offering green solutions
+                and energy-efficient designs for environmental construction.
+              </p>
+            </div>
           </div>
-
-          <div className="grid place-items-center text-center py-5 md:py-10">
-            <picture>
-              <img src="/icon-renovation.svg" alt="service icon" />
-            </picture>
-            <h2 className="text-lg font-bold my-3">Renovation Expertise</h2>
-            <p className="px-5">
-              Revitalize spaces with our remodeling services, seamlessly
-              blending functionality and aesthetics to meet evolving needs.
-            </p>
+          {/* service item */}
+          <div className="py-5 md:py-10 lg:py-16">
+            <div className="grid place-items-center text-center">
+              <picture>
+                <img src="/icon-renovation.svg" alt="service icon" />
+              </picture>
+              <h2 className="text-lg font-bold my-3">Renovation Expertise</h2>
+              <p className="px-5">
+                Revitalize spaces with our remodeling services, seamlessly
+                blending functionality and aesthetics to meet evolving needs.
+              </p>
+            </div>
           </div>
         </div>
       </section>
