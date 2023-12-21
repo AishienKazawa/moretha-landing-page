@@ -5,9 +5,9 @@ The "Moretha Landing Page" project is a web application tailored for the constru
 
 ## Project Features
 - Modern Design: The landing page boasts a modern and visually appealing design, ensuring a professional presentation for your construction-related content.
-- 
+  
 - Responsive Layout: Experience a seamless viewing experience on various devices with a fully responsive layout that adapts to different screen sizes.
-- 
+  
 - Interactive Navigation: Enjoy an intuitive and interactive navigation menu for easy exploration and accessibility.
 
 ## Technologies Used
